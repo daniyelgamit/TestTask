@@ -12,7 +12,7 @@ const TextField = ({
 
   return(
     <TextFieldContainer className="form-group">
-      <label htmlFor="first_name">{label}</label>
+      <label htmlFor="first_name">{label} *</label>
       <Field
         name={name}
         className={(formik?.touched[name] && formik?.errors[name]) ? 'form-control is-invalid' : 'form-control'}
