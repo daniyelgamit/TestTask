@@ -9,10 +9,6 @@ const SignUp = () => {
 
   const [formHeading, setFormHeading] = useState("Create Your Fan Account");
   const [selectedType, setSelectedType] = useState("Fan SignUp");
-  const [notification, setNotification] = useState({
-    message: "SDD DAD DAD QADD QADQA DQAD QADQAD QADQADD",
-    type: "alert-success"
-  });
 
   const initialValues = {
     first_name:"",
